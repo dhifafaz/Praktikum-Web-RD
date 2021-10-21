@@ -1,0 +1,50 @@
+html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-size: 20px;
+}
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.night-owl {
+    background-color: black;
+    color: white;
+}
+
+.bright-white {
+    background-color: white;
+    color : black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1em;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    position:relative;
+    border: solid 1px;
+    border-radius: 40px;
+}
+
+#sentence-field{
+    border: solid 1px red;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: darksalmon;
+}
+
+.answer{
+    border: solid 1px red;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: darksalmon;
+}
