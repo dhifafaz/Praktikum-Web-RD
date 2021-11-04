@@ -13,7 +13,7 @@ $(document).ready(function(){
 
     $('#add_data_dialog').dialog({
         autoOpen:false,
-        width:400
+        width:360
     });
 
     $('#add_data').click(function(){
