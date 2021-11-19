@@ -153,7 +153,29 @@
                 </div>
             </div>
 
-            
+            <?php
+            session_start();
+
+            if (isset($_POST['clear'])) {
+                $_SESSION['inputs'] = array();
+            }
+            if (!empty($_POST['name']) && !empty($_POST['age'])) {
+                if (!isset($_SESSION['inputs'])) {
+                    // initialize the saved input session variable the first time
+                    $_SESSION['inputs'] = array();
+                }
+                $_SESSION['inputs'][] = $_POST;
+                foreach ($_SESSION['inputs'] as $input) {
+                    echo "You are {$input['name']} and you are {$input['age']} years old.<br>";
+                }
+            }
+            ?>
+
+            <form action="index.php" method="post">
+            <input type="text" name="name" placeholder="Name">
+            <input type="text" name="age" placeholder="Age">
+            <input type="submit"> <input type="submit" name="clear" value="Clear">
+            </form>
         </div>
     </body>
     <!-- Script Js -->
