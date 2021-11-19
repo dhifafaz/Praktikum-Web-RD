@@ -1,0 +1,36 @@
+
+body{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.main-content{
+    display: grid;
+    place-items: center;
+}
+.card{
+    margin: 30px !important;   
+    width: 85%;     
+}
+.buah{
+    padding: 20px ;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card{
+        margin: 30px !important;        
+    }
+    .buah{
+        padding: 20px ;
+        text-align: center;
+    }
+    table{
+        width: 100%;
+    }
+    
+}
