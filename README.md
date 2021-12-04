@@ -17,6 +17,15 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 
 ### Tambahkan identitas dasar di sini: 
 
-Nama  :
+Nama  : Dhifaf Athiyah Zhabiyan
 <br>
-NIM   :
+NIM   : 119140047
+
+## Yang diubah pada praktikum minggu 8
+
+1. Css dipisahkan untuk index dan home tidak dalam PHP lagi
+2. Ditambahkan tombol keluar
+3. Histori yang berjalan
+4. Ditambahkan sapaan berupa nama ketika user masuk ke home
+5. JS terpisah tidak dalam file PHP
+
